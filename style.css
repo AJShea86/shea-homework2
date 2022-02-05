@@ -60,11 +60,6 @@
 
 }
 
-
-nav ul:hover {
-    background-color: #fff;
-  }
-
 .box {
     flex: 1;
     background-color: #fff;
@@ -84,4 +79,9 @@ nav ul:hover {
     margin: 20px;
     text-align: center;
     height: 250px;
+    color:blue;
+  }
+
+  span {
+      text-decoration: underline;
   }
