@@ -1,73 +1,55 @@
 .name {
-    font-size: 180px;
+    /* font-size: 100px;  */
     background-color: blue;
     border: 3px solid red;
     display: flex;
-    align-self: auto;
-    justify-content: center;
+    justify-content: space-between;
+    background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&auto");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
 }
 
 .beard-pic {
     
     border-radius: 50px;
-    /* margin-left: 450px; */
     padding: 10px;
+    height: 150px;
+    width: 150px;
     
 }
+
+span {
+      text-decoration: underline;
+}
+
+nav {
+    width: 540px;
+}
+
+.logo {
+    display: flex;
+    
+}
+
+
 
 .links {
-    word-spacing: 5px;
-    margin: 10px;
+    list-style: none;
     font-size: 25px;
-    margin-top: 30px;
-    margin-left: 300px;
-    
-}
-
-#link1 {
-    background-color: lightblue;
-    border: 2px solid black;
-    padding: 11px;
-    border-radius: 45%;
-
-}
-
-#link2 {
-    background-color: lightblue;
-    border: 3px solid black;
-    padding: 11px;
-    border-radius: 45%;
-
-
-}
-
-#link3 {
-    background-color: lightblue;
-    border: 3px solid black;
-    padding: 11px;
-    border-radius: 45%;
-
-
-
-}
-
-#link4 {
-    background-color: lightblue;
-    border: 3px solid black;
-    padding: 11px;
-    border-radius: 45%;
-
-
-}
-
-.box {
-    flex: 1;
-    background-color: #fff;
-    padding: 50px;
-    flex-wrap: wrap;
+    background-color: yellowgreen;  
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
     justify-content: space-evenly;
-    
-  }
+    padding-left: 0px;
+}
+
+
+.items {
+    height: 300px;
+    width: 100vw;    
+}   
 
 .card {
     border-style: solid;
@@ -81,9 +63,3 @@
     height: 250px;
     color:blue;
   }
-
-  span {
-      text-decoration: underline;
-  }
-
- 
