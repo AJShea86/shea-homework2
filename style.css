@@ -82,7 +82,7 @@ nav {
 
 .pics:hover {
     height: 165px; 
-    border: 5px solid white;
+    border: 6px solid white;
 }
 
 .pics:active {
@@ -98,14 +98,20 @@ nav {
 
 .photo:hover {
     height: 195px;
-    border: 5px solid white;
+    border: 6px solid white;
 }
 
 .photo:active {
     border: 5px solid black;
 }
 
-.contact {
-   
-    
+div a {
+    color: black;
+    text-decoration: none;
+}
+
+.school {
+    padding: 10px;
+    margin: 30px;
+    font-size: 20px;
 }
