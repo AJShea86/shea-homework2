@@ -35,8 +35,12 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    text-decoration: none;
 }
+.links a {
+    text-decoration: none;
+
+}
+
 
 .card {
     border-style: solid;
@@ -45,7 +49,7 @@ nav {
     box-shadow: 10px 10px 5px #71ade6;
     margin: 20px;
     text-align: center;
-    height: 250px;
+    min-height: 250px;
     color:black;
     background-color: #c0d4eb;
   }
@@ -56,15 +60,15 @@ nav {
   }
 
 .images {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-evenly;       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;       
   }
 
 .pics {
-      height:150px;
-      width: 150px;
-      border-radius: 25px;
+    height:150px;
+    width: 150px;
+    border-radius: 25px;
   }
 
 .pics:hover {
@@ -74,12 +78,6 @@ nav {
 
 .pics:active {
     border: 5px solid black;
-}
-
-#portfolio {
-    display: flex;
-    align-items: center;
-    display: block;
 }
 
 .photo {
@@ -96,4 +94,8 @@ nav {
 
 .photo:active {
     border: 5px solid black;
+}
+
+.contact {
+    
 }
