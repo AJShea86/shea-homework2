@@ -10,8 +10,7 @@
     background-position: center;
 }
 
-.beard-pic {
-    
+.beard-pic {    
     border-radius: 50px;
     padding: 10px;
     height: 150px;
@@ -27,18 +26,17 @@ nav {
 }
 
 .logo {
-    display: flex;
-    
+    display: flex;    
 }
 
 .links {
-    list-style: none;
+    list-style: none; 
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-decoration: none;
 }
-
 
 .card {
     border-style: solid;
@@ -49,18 +47,53 @@ nav {
     text-align: center;
     height: 250px;
     color:black;
+    background-color: #c0d4eb;
   }
 
-  .port {
+.port {
     display:flex;
     align-items: center;
-
   }
 
-  .images {
+.images {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-evenly;
-          
-
+     justify-content: space-evenly;       
   }
+
+.pics {
+      height:150px;
+      width: 150px;
+      border-radius: 25px;
+  }
+
+.pics:hover {
+    height: 165px; 
+    border: 5px solid white;
+}
+
+.pics:active {
+    border: 5px solid black;
+}
+
+#portfolio {
+    display: flex;
+    align-items: center;
+    display: block;
+}
+
+.photo {
+    height: 175px;
+    width: 175px;
+    border-radius: 25px;
+    margin: -24px;    
+}
+
+.photo:hover {
+    height: 195px;
+    border: 5px solid white;
+}
+
+.photo:active {
+    border: 5px solid black;
+}
