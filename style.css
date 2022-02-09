@@ -6,9 +6,10 @@
     justify-content: space-between;
     background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&auto");
     background-size: cover;
-    height: 96vh;
+    height: 75vh;
     background-position: center;
     color: #308de4;
+
 }
 
 .beard-pic {    
@@ -23,7 +24,7 @@ span {
 }
 
 nav {
-    width: 540px;
+    width: 100%;
 }
 
 .logo {
@@ -114,4 +115,19 @@ div a {
     padding: 10px;
     margin: 30px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        background-color: rgb(6, 27, 141);
+    }
+ 
+}
+
+@media only screen and (max-width: 800px) {
+    .links  {
+        flex-direction: column;
+        align-items: center;
+        
+    }
 }
