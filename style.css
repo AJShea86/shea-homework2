@@ -1,9 +1,9 @@
 .name {
     font-size: 50px;
     border: 3px solid #71ade6;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&auto");
     background-size: cover;
     height: 75vh;
@@ -36,6 +36,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+
 }
 
 .links a {
@@ -94,7 +96,7 @@ nav {
     height: 175px;
     width: 175px;
     border-radius: 25px;
-    margin: -24px;    
+    /* margin: -24px;     */
 }
 
 .photo:hover {
@@ -130,4 +132,15 @@ div a {
         align-items: center;
         
     }
+}
+
+.weatherApp{
+    display: flex;
+    flex-direction: column; 
+    /* display: contents; */
+}
+
+.titlePortfolio{
+    font-size: 20px;
+    text-decoration: underline;
 }
