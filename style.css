@@ -81,6 +81,7 @@ nav {
     height:150px;
     width: 150px;
     border-radius: 25px;
+    margin-bottom: 20px;
   }
 
 .pics:hover {
@@ -137,10 +138,13 @@ div a {
 .weatherApp{
     display: flex;
     flex-direction: column; 
-    /* display: contents; */
 }
 
 .titlePortfolio{
     font-size: 20px;
     text-decoration: underline;
+}
+
+.repo{
+    margin-bottom: 20px;
 }
