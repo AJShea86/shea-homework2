@@ -4,82 +4,189 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shea Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="jquery-3.6.0.min.js"></script>
+
   </head>
 
-  <body>
-    <header class="name">
-      <nav>
-        <ul class= "links">          
-          <a href="#education">
-            <li>Education</li>
-          </a>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #5db2ee;">
+    <a class="navbar-brand"  href="https://github.com/AJShea86">AJ Shea</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#background">Background</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactme">Contact Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
+    </div>    
+  </nav>
+  <header  style="background-color: #5db2ee;" class="name">
+    <div class="logo">
+    <!-- <img class="beard-pic" src="./headshot2.jpeg" alt="head shot"> -->
+    </div>    
+  </header>
 
-          <a href="#background">
-            <li>Background</li>
-          </a>
 
-          <a href="#contactme">
-            <li>Contact Me</li>
-          </a>
-
-          <a href="#portfolio">
-            <li>Portfolio</li>
-          </a>
-        </ul>
-      </nav>    
-
-      <div class="logo">
-      <img class="beard-pic" src="./headshot2.jpeg" alt="head shot">
-      <h1>AJ Shea </h1>
-      </div>
+  <body style="background-color: #5db2ee;">
     
-    </header>
-    
-    <main>
-        <section class="card" id="education">
-        <h1><b><span>Education</span></b></h1>
-            <h3>Bachelor of Science in Biological Sciences</h3>
+    <main >
+        <section class="" id="education">
+        <div class="card" style="background-color: #e5f0f8;">
+          <div class="card-body" style="background-color: #e5f0f8;">
+            <h3 class="card-title">Education</h3>
+            <p class="card-text" style="margin-top: 40px; padding-left: 25px; padding-right: 25px;"></p>
+            <h5>Bachelor of Science in Biological Sciences</h5>
             <p>University of Missouri - Columbia</p>
-            <h3>Bachelor of Science in Clinical Laboratory Science</h3>
+            <h5>Bachelor of Science in Clinical Laboratory Science</h5>
             <p>University of Missouri - Columbia</p>
-            <h3>Certified Medical Laboratory Scientist</h3>
+            <h5>Certified Medical Laboratory Scientist</h5>
             <p>American Society for Clinical Pathology</p>
-          </section>         
-      
-        <section class="card" id="background">
-          <h1><b><span>Background</span></b></h1>
-            <p class="school">I've spent 12 years working in healthcare as a certified Medical Laboratory Scientist. Over the years, I've utilized several different Laboratory Information Systems such as Meditech, Epic, and Sunquest. An LIS is responsible for getting patient lab results from the laboratory instruments to the careprovider's hands. I'm making the transition into software development to get a better understanding of what goes into an LIS in hopes to make that communication more efficient. </p>
-        </section>        
-      
-        <section class="card" id="contactme">
-          <h1><b> <span>Contact Me</span></b></h1>      
-          <div>
-          <h3>AndrewSheaMLS@gmail.com</h3>
-          <h3><a href="https://www.linkedin.com/in/aj-shea-155155228">Visit my Linkedin</a></h3>
-          <h3><a href="https://github.com/AJShea86">Visit my Github</a></h3>
-          <h3><a href="./Shea Resume (1).pdf" download="Shea-Resume">Download my Resume</a></h3>
+
+
 
           </div>
+        </div>
+
+          </section>         
+      
+        <section class="card" id="background" style="background-color: #e5f0f8;">
+          <div class="" style="background-color: #e5f0f8;>
+            <div class="card-body">
+              <h3 style="margin-top: 40px" class="card-title">Background</h3>
+              <p class="card-text" style="margin-top: 40px; padding-left: 25px; padding-right: 25px;">I've spent 12 years working in healthcare as a certified Medical Laboratory Scientist. Over the years, I've utilized several different Laboratory Information Systems such as Meditech, Epic, and Sunquest. An LIS is responsible for getting patient lab results from the laboratory instruments to the careprovider's hands. I'm making the transition into software development to get a better understanding of what goes into an LIS in hopes to make that communication more efficient.</p>
+            </div>
+          </div>
+        </section>        
+      
+        <section class="card1" >
+
+          <div id="contactme" class="card" style="width: 25rem;">
+            <img class="card-img-top" src="./headshot2.jpeg" alt="Card image cap">
+            <div  class="card-body">
+              <h3  class="card-title">Contact Me</h3>
+            </div>
+
+
+            <div class="card-body" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+              <a type="button" class="btn btn-outline-dark" style="margin: 10px;" href = "mailto: andrewsheamls@gmail.com">Email Me</a>              
+
+              <a type="button" class="btn btn-outline-dark" href="https://www.linkedin.com/in/aj-shea-155155228" style="margin: 10px;">Visit my LinkedIn</a>
+
+              <a type="button"  style="margin: 10px" class="btn btn-outline-dark" href="Shea Resume (1).pdf">Download Resume</a>
+
+              <a type="button" class="btn btn-outline-dark" href="https://github.com/AJShea86"  style="margin: 10px" >View Github Account</a>
+
+
+            </div>
+          </div>
+
+
             </ul>
         </section>        
       
-        <section class="card" id="portfolio">
-          <div><h1><b><span>Portfolio</span></b></h1></div>
-          <div class="images">            
-            <div class="weatherApp"><p class="titlePortfolio">Weather Dashboard!</p><a href="https://github.com/AJShea86/shea-weatherApp" class="repo">View the Repository</a> <a href="https://ajshea86.github.io/shea-weatherApp/"><img class="pics" src="./weather-app-screenshot.png" alt="weather app screenshot"></a>   
-                </div>
+        <section class="card" id="portfolio" style="background-color: #e5f0f8;" >
+          <h3 style="margin-top: 40px" class="card-title">Portfolio</h3>
+          <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
 
-            <div class="weatherApp"><p class="titlePortfolio">Plan Your Day!</p><a href="https://github.com/AJShea86/shea-dayPlanner" class="repo">View the Repository</a><a href="https://ajshea86.github.io/shea-dayPlanner/"><img class="pics" src="./day-planner-screenshot.png" alt="day planner screenshot"></a> </div>
 
-            <div class="weatherApp"><p class="titlePortfolio">Stumble Upon the Force!</p><a href="https://github.com/Par92/group-6" class="repo">View the Repository</a><a href="https://par92.github.io/group-6/"><img class="pics" src="./stumble-screenshot.png" alt="stumble upon the force screenshot"></a> </div>
+            <div class="card" style="width: 22rem; border: 1px solid black;">
+              <img class="card-img-top" src="./weather-app-screenshot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">Search the weather by city with this app that uses the Open Weather API.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/AJShea86/shea-weatherApp" class="card-link">View the Repo</a>
+                <a href="https://ajshea86.github.io/shea-weatherApp/" class="card-link">Launch</a>
+              </div>
+            </div>
 
-            <!-- <a href="https://www.harborfreight.com"><img class="pics" src="https://images.unsplash.com/photo-1554825959-e9a6670d4f18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9vbHN8ZW58MHwxfDB8fA%3D%3D&" alt="placeholder"></a>
+            <div class="card" style="width: 22rem; border: 1px solid black;">
+              <img class="card-img-top" src="./new-dayplanner-screenshot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Day Planner</h5>
+                <p class="card-text">Easily create and view tasks with this simple day planner application.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/AJShea86/shea-dayPlanner" class="card-link">View the Repo</a>
+                <a href="https://ajshea86.github.io/shea-dayPlanner/" class="card-link">Launch</a>
+              </div>
+            </div>
 
-            <a href="https://www.acehardware.com"><img class="pics" src="https://images.unsplash.com/photo-1585201731775-0597e1be4bfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dG9vbHN8ZW58MHwxfDB8fA%3D%3D&" alt="placeholder"></a> -->
-          </div>          
+            <div class="card" style="width: 22rem; border: 1px solid black;">
+              <img class="card-img-top" src="./stumble-screenshot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Stumble Upon the Force!</h5>
+                <p class="card-text">Generate random Star Wars trivia facts and movie quotes with this application using SWAPI and the Star Wars Qoutes API.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/Par92/group-6" class="card-link">View the Repo</a>
+                <a href="https://par92.github.io/group-6/" class="card-link">Launch</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 22rem; border: 1px solid black;">
+              <img class="card-img-top" src="./CRM-unitID.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Storage Customer Relations Manager</h5>
+                <p class="card-text">This is a cutomer relations manager for a storage unit company designed to track customers, units, and employees.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/Capricious150/Storage-Company-CRM" class="card-link">View the Repo</a>
+                <a href="https://obscure-fortress-36199.herokuapp.com/" class="card-link">Launch</a>
+              </div>
+            </div>
+            <div class="card" style="width: 22rem; border: 1px solid black;">
+              <img class="card-img-top" src="./note-taker-screenshot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Note Taker</h5>
+                <p class="card-text">Create and save notes easily with this note taker appilcation that uses node.js and express.js</p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/AJShea86/shea-note-taker" class="card-link">View the Repo</a>
+                <a href="https://ajshea-note-taker.herokuapp.com/" class="card-link">Launch</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 22rem; border: 1px solid black;">
+              <img class="card-img-top" src="./README-screenshot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Feed Me a ReadME</h5>
+                <p class="card-text">Generate a readME file using this command line application created with the Inquirer npm.</p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/AJShea86/shea-feedme-a-readme" class="card-link">View the Repo</a>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
         </section>    
     </main>
+
   </body>  
 </html>
